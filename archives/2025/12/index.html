@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="" data-theme="lofi">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>i686-0x7C00</title>
+
+<link rel="icon" href="/images/favicon.png">
+
+<meta name="author" content="i686-0x7C00">
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="/css/style.css">
+
+<style>
+  #search_modal .modal-box {
+    overflow-x: hidden;
+  }
+  #search-results,
+  #search-results li,
+  #search-results a {
+    max-width: 100%;
+  }
+  .prose :where(p, li, blockquote, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  .prose a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+</style>
+  <script>
+    window.CONFIG = {
+      root: '/',
+      title: 'i686-0x7C00',
+      version: '1.0.0'
+    };
+  </script>
+<meta name="generator" content="Hexo 8.1.1"></head>
+<body class="flex flex-col min-h-screen bg-white text-black antialiased">
+  <div class="navbar bg-white border-b border-black p-0 h-16 relative z-50 flex flex-row flex-nowrap justify-between items-center w-full">
+  <!-- Logo Section -->
+  <div class="flex-none border-r border-black h-full flex items-center px-6 min-w-[200px]">
+    <a href="/" class="text-xl font-black tracking-tighter hover:opacity-70 transition-opacity whitespace-nowrap">
+    i686-0x7C00  
+    </a>
+  </div>
+
+  <!-- Desktop Menu -->
+  <div class="hidden lg:flex flex-none h-full ml-auto">
+    <ul class="flex h-full m-0 p-0">
+      
+        <li class="h-full border-l border-black list-none">
+          <a href="/" class="h-full flex items-center px-8 font-bold uppercase tracking-widest text-xs hover:bg-black hover:text-white transition-colors duration-200 focus:bg-black focus:text-white active:bg-black whitespace-nowrap">
+            首页
+          </a>
+        </li>
+      
+        <li class="h-full border-l border-black list-none">
+          <a href="/archives" class="h-full flex items-center px-8 font-bold uppercase tracking-widest text-xs hover:bg-black hover:text-white transition-colors duration-200 focus:bg-black focus:text-white active:bg-black whitespace-nowrap">
+            归档
+          </a>
+        </li>
+      
+        <li class="h-full border-l border-black list-none">
+          <a href="/friends" class="h-full flex items-center px-8 font-bold uppercase tracking-widest text-xs hover:bg-black hover:text-white transition-colors duration-200 focus:bg-black focus:text-white active:bg-black whitespace-nowrap">
+            友链
+          </a>
+        </li>
+      
+        <li class="h-full border-l border-black list-none">
+          <a href="/about" class="h-full flex items-center px-8 font-bold uppercase tracking-widest text-xs hover:bg-black hover:text-white transition-colors duration-200 focus:bg-black focus:text-white active:bg-black whitespace-nowrap">
+            关于
+          </a>
+        </li>
+      
+      
+      <!-- Search Button -->
+      <li class="h-full border-l border-black list-none">
+        <button onclick="document.getElementById('search_modal').showModal()" aria-label="Search" class="h-full px-6 flex items-center hover:bg-black hover:text-white transition-colors duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+        </button>
+      </li>
+      <!-- RSS -->
+      <li class="h-full border-l border-black list-none">
+        <a href="/feed/" class="h-full px-6 flex items-center hover:bg-black hover:text-white transition-colors duration-200" aria-label="RSS Feed">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z" /></svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Mobile Menu Button -->
+  <div class="flex lg:hidden flex-none h-full border-l border-black ml-auto">
+     <div class="dropdown dropdown-end h-full">
+      <label tabindex="0" class="btn btn-ghost rounded-none h-full px-6 hover:bg-black hover:text-white border-none flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+      </label>
+      <ul tabindex="0" class="menu dropdown-content mt-0 z-[1] p-0 shadow bg-white border border-black w-[200px] rounded-none right-0 top-full absolute">
+        
+          <li class="border-b border-black last:border-b-0"><a href="/" class="rounded-none py-4 px-6 font-bold uppercase tracking-widest hover:bg-black hover:text-white block text-sm">首页</a></li>
+        
+          <li class="border-b border-black last:border-b-0"><a href="/archives" class="rounded-none py-4 px-6 font-bold uppercase tracking-widest hover:bg-black hover:text-white block text-sm">归档</a></li>
+        
+          <li class="border-b border-black last:border-b-0"><a href="/friends" class="rounded-none py-4 px-6 font-bold uppercase tracking-widest hover:bg-black hover:text-white block text-sm">友链</a></li>
+        
+          <li class="border-b border-black last:border-b-0"><a href="/about" class="rounded-none py-4 px-6 font-bold uppercase tracking-widest hover:bg-black hover:text-white block text-sm">关于</a></li>
+        
+        <!-- Mobile Search -->
+         <li class="border-b border-black last:border-b-0">
+            <button onclick="document.getElementById('search_modal').showModal()" class="rounded-none py-4 px-6 font-bold uppercase tracking-widest hover:bg-black hover:text-white w-full text-left flex gap-2 items-center text-sm">
+                <span>搜索</span>
+            </button>
+         </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  <!-- PJAX Container -->
+  <!-- Main content area -->
+  <div id="main-container" class="flex-grow w-full fade-in">
+    <main class="max-w-3xl mx-auto px-4 pt-32">
+    <header class="mb-16 text-center">
+        <h1 class="text-4xl font-black uppercase tracking-widest">
+            
+                归档
+            
+        </h1>
+        <p class="text-gray-500 mt-2 font-mono text-sm">
+            
+                共 1 篇文章
+            
+        </p>
+    </header>
+    
+    <div class="relative border-l-2 border-gray-100 ml-4 md:ml-0 space-y-12">
+    
+    
+        
+        
+            <div class="relative">
+                <span class="absolute -left-[9px] top-4 h-4 w-4 bg-black rounded-none"></span>
+                <div class="pl-8 text-6xl font-black text-gray-200 select-none">2025</div>
+            </div>
+            
+        
+        
+        <div class="relative pl-8 group">
+             <!-- Dot -->
+             <span class="absolute -left-[5px] top-2 h-2 w-2 bg-gray-300 group-hover:bg-black transition-colors rounded-none"></span>
+             
+             <div class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8">
+                <time class="text-sm font-mono text-gray-400">12-27</time>
+                <h2 class="text-xl font-bold leading-tight">
+                    <a href="/2025/12/27/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%8C%87%E4%BB%A4/" class="hover:underline decoration-2 decoration-black underline-offset-4 transition-all">第一个指令...</a>
+                </h2>
+             </div>
+        </div>
+    
+    </div>
+
+    <!-- Pagination -->
+    <div class="flex justify-center mt-20 space-x-4">
+        
+        
+    </div>
+</main>
+
+  </div>
+
+  <footer class="footer py-10 bg-black text-white border-t border-black mt-0">
+  <div class="flex flex-col md:flex-row justify-between items-center md:items-start w-full px-6">
+    <div class="flex flex-col gap-4 items-center md:items-start text-center md:text-left">
+        <h3 class="text-2xl font-black tracking-tighter">i686-0x7C00</h3>
+        <p class="text-sm opacity-70 max-w-xs">
+            i686-0x7C00 的博客
+        </p>
+    </div>
+    
+    <div class="flex flex-col items-center md:items-end gap-4 text-center md:text-right mt-8 md:mt-0">
+        <div class="flex gap-4 text-sm font-bold uppercase tracking-widest">
+            <a href="/feed/" class="hover:underline">RSS</a>
+            <a href="/archives" class="hover:underline">归档</a>
+            <a href="/friends" class="hover:underline">友链</a>
+            
+                <a href="/about" class="hover:underline">关于</a>
+            
+        </div>
+        <p class="text-xs opacity-50 font-mono">
+            © 2025 i686-0x7C00. Powered by Hexo. <a target="_blank" rel="noopener" href="https://github.com/spatiostu/lofi" class="hover:underline">Theme Lofi</a>
+        </p>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Search Modal -->
+  <dialog id="search_modal" class="modal">
+    <div class="modal-box bg-white border border-black rounded-none p-4 md:p-6 w-11/12 max-w-7xl overflow-x-hidden">
+      <h3 class="font-bold text-lg mb-4 uppercase tracking-widest">搜索</h3>
+      <input type="text" id="search-input" placeholder="输入关键词..." class="w-full p-3 border border-black rounded-none focus:outline-none focus:bg-gray-50 text-base md:text-lg font-mono placeholder-gray-400" />
+      <ul id="search-results" class="w-full mt-4 p-0">
+        <!-- Search results will be injected here -->
+      </ul>
+      <div class="modal-action">
+        <form method="dialog">
+          <button class="btn btn-sm btn-outline rounded-none border-black hover:bg-black hover:text-white uppercase">关闭</button>
+        </form>
+      </div>
+    </div>
+    <form method="dialog" class="modal-backdrop">
+      <button>close</button>
+    </form>
+  </dialog>
+
+  <!-- Scripts -->
+
+<script src="/js/pjax.min.js"></script>
+
+
+<!-- JS -->
+
+<script src="/js/main.js"></script>
+
+
+<!-- Artalk (Comment System) -->
+
+
+
+
+</body>
+</html>
